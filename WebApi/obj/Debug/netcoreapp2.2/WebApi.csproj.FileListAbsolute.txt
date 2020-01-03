@@ -1,0 +1,17 @@
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\package-lock.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+C:\Users\eduardo\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+C:\Users\eduardo\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
