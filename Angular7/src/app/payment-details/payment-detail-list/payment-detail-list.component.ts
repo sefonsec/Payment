@@ -22,11 +22,11 @@ export class PaymentDetailListComponent implements OnInit {
   }
 
   onDelete(PMId) {
-      if (confirm('Are you sure to delete this record ?')) {
+      if (confirm('Tem certeza de que deseja excluir este registro?')) {
       this.service.deletePaymentDetail(PMId)
       .subscribe(res => {
         this.service.refreshList();
-        this.toastr.warning('Deleted successfully', 'Payment Detail Register');
+        this.toastr.warning('Apagado com sucesso', 'Detalhes de pagamento');
       },
         err => {
           console.log(err);
