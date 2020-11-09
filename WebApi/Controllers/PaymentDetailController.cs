@@ -25,6 +25,17 @@ namespace WebApi.Controllers
             return await _context.PaymentDetails.ToListAsync();
         }
 
+        [HttpOptions("{cardOwnerName}")]
+        public async Task<ActionResult<IEnumerable<PaymentDetail>>> SearchPaymentDetails(string cardOwnerName)
+        {
+            var result = await _context.PaymentDetails
+                .Where(w => w.CardOwnerName.Contains(cardOwnerName))
+                .OrderBy(ob => ob.CardOwnerName)
+                .ToListAsync();
+
+            return result;
+        }
+
         // GET: api/PaymentDetail/5
         [HttpGet("{id}")]
         public async Task<ActionResult<PaymentDetail>> GetPaymentDetail(int id)
@@ -71,7 +82,7 @@ namespace WebApi.Controllers
 
         // POST: api/PaymentDetail
         [HttpPost]
-        public async Task<ActionResult<PaymentDetail>> PostPaymentDetail(PaymentDetail paymentDetail)
+        public async Task<ActionResult<IEnumerable<PaymentDetail>>> PostPaymentDetail(PaymentDetail paymentDetail)
         {
             _context.PaymentDetails.Add(paymentDetail);
             await _context.SaveChangesAsync();

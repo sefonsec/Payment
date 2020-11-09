@@ -26,7 +26,8 @@ export class PaymentDetailComponent implements OnInit {
       CardOwnerName: '',
       CardNumber: '',
       ExpirationDate: '',
-      CVV: ''
+      CVV: '',
+      SearchOwnerName: ''      
     }
   }
 

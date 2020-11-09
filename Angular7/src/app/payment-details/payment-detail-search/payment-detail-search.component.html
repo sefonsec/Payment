@@ -1,0 +1,15 @@
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+    <div class="form-group">
+        <div class="input-group">
+            <div class="col-md-10">                 
+                <input name="SearchOwnerName" #SearchOwnerName="ngModel" [(ngModel)]="service.formData.SearchOwnerName" 
+                class="form-control" placeholder="Pesquisar"> 
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success" type="submit" [disabled]="form.invalid">
+                    <i class="fas fa-search"></i> Pesquisar
+                </button>    
+            </div>   
+        </div>     
+    </div>
+</form>

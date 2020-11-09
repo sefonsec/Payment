@@ -10,13 +10,15 @@ import { PaymentDetailsComponent } from './payment-details/payment-details.compo
 import { PaymentDetailComponent } from './payment-details/payment-detail/payment-detail.component';
 import { PaymentDetailListComponent } from './payment-details/payment-detail-list/payment-detail-list.component';
 import { PaymentDetailService } from './shared/payment-detail.service';
+import { PaymentDetailSearchComponent } from './payment-details/payment-detail-search/payment-detail-search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PaymentDetailsComponent,
     PaymentDetailComponent,
-    PaymentDetailListComponent
+    PaymentDetailListComponent,
+    PaymentDetailSearchComponent
   ],
   imports: [
     BrowserModule,

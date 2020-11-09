@@ -24,10 +24,19 @@ export class PaymentDetailService {
     return this.http.delete(this.rootURL + '/PaymentDetail/' + id);
   }
 
+  searchPaymentDetails(cardOwnerName) {    
+    return this.http.options(this.rootURL + '/PaymentDetail/'+ cardOwnerName)
+  }
+
+  refreshListSearch(cardOwnerName) {    
+    return this.http.options(this.rootURL + '/PaymentDetail/'+ cardOwnerName)
+    .toPromise()
+    .then(res => this.list = res as PaymentDetail[]);
+  }
+
   refreshList(){
     this.http.get(this.rootURL + '/PaymentDetail')
     .toPromise()
     .then(res => this.list = res as PaymentDetail[])
-  }
-
+  }  
 }
